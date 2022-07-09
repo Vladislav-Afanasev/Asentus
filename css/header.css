@@ -1,0 +1,137 @@
+.header {
+    background: url(/img/header/Background-header.png) no-repeat center;
+    min-height: 900px;
+}
+
+.header__wrapper-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 120px;
+}
+
+.header__logo {
+    position: relative;
+    margin: 0px 145px 0px 0px;
+}
+
+.header__logo_gray-block {
+    width: 67px;
+    height: 67px;
+    background-color: #ffffffdd;
+}
+
+.header__logo_main-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 67px;
+    height: 67px;
+    background-color: #11749e;
+    transform: translate(-10px, -7px);
+}
+
+.header__logo-text {
+    font-size: 30px;
+    color: #f5f5f5;
+    font-weight: 700;
+    font-family: "Open Sans";
+    text-decoration: none;
+}
+
+.header__menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__list {
+    display: flex;
+    justify-content: center align-items: center;
+    width: 100%;
+}
+
+.header__item {
+    margin-right: 25px;
+}
+
+.header__link {
+    font-size: 19px;
+    color: #ffffff;
+    font-family: "GothamMenium";
+    text-align: center;
+    text-decoration: none;
+}
+
+.header__networks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__networks-global {
+    display: none;
+}
+.header__networks a:not(:last-child) {
+    margin-right: 48px;
+}
+
+.header__creatives {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 150px 0px 0px 0px;
+}
+
+.header__title {
+    font-size: 153px;
+    letter-spacing: -8px;
+    color: #f5f5f5;
+    font-weight: bold;
+    font-family: "GothamMenium";
+    text-align: center;
+}
+
+.header__subtitle {
+    max-width: 500px;
+    height: 20px;
+    font-size: 25px;
+    letter-spacing: 15px;
+    line-height: 45px;
+    color: #11749e;
+    font-weight: 500;
+    font-family: "GothamMenium";
+    text-align: center;
+}
+
+.header__scroll {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 160px 0px 0px 0px;
+}
+
+.header__text {
+    font-size: 13px;
+    line-height: 22px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+}
+
+.header__circle {
+    margin: 25px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65px;
+    height: 65px;
+    border-radius: 32px;
+    background-color: rgba(128, 128, 128, 0);
+    border: 1px solid #ffffff;
+}
