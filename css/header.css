@@ -1,6 +1,6 @@
 .header {
     background: url(/img/header/Background-header.png) no-repeat center;
-    min-height: 900px;
+    min-height: 1000px;
 }
 
 .header__wrapper-nav {
@@ -50,7 +50,8 @@
 
 .header__list {
     display: flex;
-    justify-content: center align-items: center;
+    justify-content: center;
+    align-items: center;
     width: 100%;
 }
 
