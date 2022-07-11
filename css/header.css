@@ -52,6 +52,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     width: 100%;
 }
 
@@ -60,19 +61,35 @@
 }
 
 .header__link {
+    display: inline-block;
     font-size: 19px;
     color: #ffffff;
     font-family: "GothamMenium";
     text-align: center;
     text-decoration: none;
 }
-
+.header__link::after {
+    background-color: #ffffff;
+    display: block;
+    content: '';
+    height: 2px;
+    width: 0%;
+    transition-property: width;
+    transition-duration: 1s;
+}
+.header__link:hover::after,
+.header__link:focus::after {
+    width: 100%;
+}
 .header__networks {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .header__networks-global {
+    display: none;
+}
+.header__burger {
     display: none;
 }
 .header__networks a:not(:last-child) {
@@ -84,7 +101,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 150px 0px 0px 0px;
+    margin: 250px 0px 0px 0px;
 }
 
 .header__title {

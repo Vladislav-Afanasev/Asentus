@@ -62,8 +62,12 @@
     border-radius: 67px;
     background-color: #2e85aa;
     margin-bottom: 10px;
+    transition-duration: 1s;
+    transition-property: background-color;
 }
-
+.agency__cicrle:hover {
+    background-color: #00b3ff;
+}
 .agency__card-title {
     width: 170px;
     height: 27px;
@@ -107,7 +111,6 @@
     margin: 0px 0px 0px 0px;
     background-color: #222;
     grid-row: 1 / 2;
-
 }
 
 .akita__text-white {
@@ -136,7 +139,7 @@
 }
 
 .akita__subtitle {
-    width: 472px;
+    max-width: 472px;
     height: 158px;
     font-size: 15px;
     line-height: 24px;
@@ -165,7 +168,7 @@
 }
 
 .akita__subtitle-white {
-    width: 472px;
+    max-width: 472px;
     height: 158px;
     font-size: 15px;
     line-height: 24px;
@@ -230,6 +233,10 @@
 
 .blog__card {
     margin-bottom: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .blog__img {}
@@ -266,14 +273,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .lorem__section {
     display: inline-flex;
+    justify-content: center;
+    align-items: flex-start;
     margin: 150px 0px;
 }
 
 .lorem__section img {
+    display: flex;
     padding-right: 15px;
 }
 
@@ -282,7 +293,10 @@
 }
 
 .lorem__text {
-    max-width: 451px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 450px;
     height: 90px;
     font-size: 15px;
     line-height: 24px;
@@ -349,6 +363,10 @@
     color: #ffffff;
     font-weight: 500;
     font-family: "GothamMenium";
+    transition-duration: 1s;
+}
+.iphone__button-1:hover {
+    background-color: #00b3ff;
 }
 
 .iphone__button-2 {
@@ -365,6 +383,10 @@
     color: #ffffff;
     font-weight: 500;
     font-family: "GothamMenium";
+    transition-duration: 1s;
+}
+.iphone__button-2:hover {
+    background-color: #00b3ff;
 }
 
 .iphone__button-3 {
@@ -381,6 +403,10 @@
     color: #ffffff;
     font-weight: 500;
     font-family: "GothamMenium";
+    transition-duration: 1s;
+}
+.iphone__button-3:hover {
+    background-color: #00b3ff;
 }
 
 .iphone__img {
@@ -517,7 +543,14 @@
     border: 1px solid #ffffff;
     padding-left: 15px;
 }
-
+.form__name:hover {
+    box-shadow: 1px 1px 20px white;
+}
+.form__name:focus {
+    color: #ffffff;
+    font-family: "GothamMenium";
+    box-shadow: 1px 1px 30px #00b3ff;
+}
 .form__email {
     display: inline-block;
     max-width: 370px;
@@ -525,6 +558,14 @@
     background-color: #80808000;
     border: 1px solid #ffffff;
     padding-left: 15px;
+}
+.form__email:hover {
+    box-shadow: 1px 1px 20px white;
+}
+.form__email:focus {
+    color: #ffffff;
+    font-family: "GothamMenium";
+    box-shadow: 1px 1px 30px #00b3ff;
 }
 
 .form__tel {
@@ -535,6 +576,14 @@
     border: 1px solid #ffffff;
     padding-left: 15px;
 }
+.form__tel:hover {
+    box-shadow: 1px 1px 20px white;
+}
+.form__tel:focus {
+    color: #ffffff;
+    font-family: "GothamMenium";
+    box-shadow: 1px 1px 30px #00b3ff;
+}
 
 .form__message {
     grid-area: message;
@@ -544,6 +593,14 @@
     height: 150px;
     background-color: #80808000;
     border: 1px solid #ffffff;
+}
+.form__message:focus {
+    color: #ffffff;
+    font-family: "GothamMenium";
+    box-shadow: 1px 1px 30px #00b3ff;
+}
+.form__message:hover {
+    box-shadow: 1px 1px 20px white;
 }
 
 .form__submit {
@@ -558,4 +615,8 @@
     width: 227px;
     height: 64px;
     background-color: #11749e;
+}
+.form__submit:active {
+    background-color: #00b3ff;
+    border: 1px solid white;
 }
