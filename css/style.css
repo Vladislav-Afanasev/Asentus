@@ -497,7 +497,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 900px;
+    height: 1100px;
   }
   .lorem__section {
     display: inline-flex;
@@ -505,7 +505,7 @@ img {
   }
   .lorem__section:last-child {
     display: inline-flex;
-    margin: 320px 30px 10px 0px;
+    margin: 420px 30px 10px 0px;
   }
   .lorem__text {
     margin-bottom: 20px;
@@ -525,7 +525,7 @@ img {
   }
   .iphone__subtitle {
     text-align: justify;
-    margin-bottom: 180px;
+    margin-bottom: 200px;
   }
   .iphone__text {
     display: flex;

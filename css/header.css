@@ -86,6 +86,11 @@
     justify-content: space-between;
     align-items: center;
 }
+.header__networks img:hover {
+    transition-timing-function: linear;
+    transition-duration: 0.3s;
+    transform: rotate(30deg);
+}
 .header__networks-global {
     display: none;
 }
