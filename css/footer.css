@@ -1,0 +1,19 @@
+.footer {
+    background-color: #222;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__text {
+    font-size: 13px;
+    letter-spacing: 0px;
+    line-height: 36px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+.footer__logo {}
